@@ -1,4 +1,10 @@
-# 👋 Welcome to My Ritual Chamber
+STRIPE_SECRET_KEY=sk_live_…
+STRIPE_WEBHOOK_SECRET=whsec_…
+DISCORD_GUILD_ID=yourGuildID
+DISCORD_SPONSOR_ROLE_ID=yourRoleID
+DISCORD_BOT_TOKEN=yourBotToken
+LOGBOOK_WEBHOOK_URL=https://discord.com/api/webhooks/…
+PORT=3001# 👋 Welcome to My Ritual Chamber
 
 I’m Alexandros Thomson, architect of campaigns, builder of Discord realms, and orchestrator of monetized mythologies under Kypria-LLC.
 
