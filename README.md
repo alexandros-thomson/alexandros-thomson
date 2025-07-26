@@ -1,16 +1,7 @@
-STRIPE_SECRET_KEY=sk_live_…
-STRIPE_WEBHOOK_SECRET=whsec_…
-DISCORD_GUILD_ID=yourGuildID
-DISCORD_SPONSOR_ROLE_ID=yourRoleID
-DISCORD_BOT_TOKEN=yourBotToken
-LOGBOOK_WEBHOOK_URL=https://discord.com/api/webhooks/…
-PORT=3001STRIPE_SECRET_KEY=sk_live_…
-STRIPE_WEBHOOK_SECRET=whsec_…
-DISCORD_GUILD_ID=yourGuildID
-DISCORD_SPONSOR_ROLE_ID=yourRoleID
-DISCORD_BOT_TOKEN=yourBotToken
-LOGBOOK_WEBHOOK_URL=https://discord.com/api/webhooks/…
-PORT=3001# 👋 Welcome to My Ritual Chamber
+![Sponsors](https://img.shields.io/github/sponsors/alexandros-thomson?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/alexandros-thomson/alexandros-thomson?style=for-the-badge)
+![Watchers](https://img.shields.io/github/watchers/alexandros-thomson/alexandros-thomson?style=for-the-badge)
+![Contributions](https://github-readme-stats.vercel.app/api?username=alexandros-thomson&show_icons=true&theme=radical)
 
 I’m Alexandros Thomson, architect of campaigns, builder of Discord realms, and orchestrator of monetized mythologies under Kypria-LLC.
 
