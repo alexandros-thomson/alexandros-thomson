@@ -32,4 +32,116 @@ jobs:
         run: |
           echo "Generating artifact..."
           mkdir -p vault/sponsor_drop
-          echo "Blessed by ${{ github.actor }} on $(date)" > vault/sponsor_drop/README.md
+          echo "Blessed by ${{ github.actor }} on $(date)" > vault/sponsor_drop/README.md# .github/workflows/sponsor_sigil.yml
+name: 🔥 Sponsor Sigil Invocation
+
+on:
+  workflow_dispatch:
+    inputs:
+      discord_id:
+        description: Sponsor’s Discord ID
+        required: true
+      sponsor_name:
+        description: Sponsor’s public name
+        required: true
+      pledge_amount:
+        description: Pledge amount in USD (integer)
+        required: true
+  push:
+    paths:
+      - ".github/workflows/sponsor_sigil.yml"
+      - "vault/**"
+      - "src/**"
+
+jobs:
+  grant-access-and-etch-history:
+    runs-on: ubuntu-latest
+    env:
+      DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+      DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
+      SPONSOR_LOG_CHANNEL_ID: ${{ secrets.SPONSOR_LOG_CHANNEL_ID }}
+      BRONZE_ROLE_ID: ${{ secrets.BRONZE_ROLE_ID }}
+      SILVER_ROLE_ID: ${{ secrets.SILVER_ROLE_ID }}
+      GOLD_ROLE_ID: ${{ secrets.GOLD_ROLE_ID }}
+      PLATINUM_ROLE_ID: ${{ secrets.PLATINUM_ROLE_ID }}
+
+    steps:
+      - name: 🧾 Checkout Canon
+        uses: actions/checkout@v4
+
+      - name: 🏷 Determine Sponsor Tier
+        id: tier
+        run: |
+          AMT=${{ github.event.inputs.pledge_amount }}
+          if [ "$AMT" -ge 100 ]; then echo "tier=Platinum" >> $GITHUB_OUTPUT
+          elif [ "$AMT" -ge 50 ]; then echo "tier=Gold" >> $GITHUB_OUTPUT
+          elif [ "$AMT" -ge 10 ]; then echo "tier=Silver" >> $GITHUB_OUTPUT
+          else echo "tier=Bronze" >> $GITHUB_OUTPUT; fi
+
+      - name: 🗂 Compute Artifact Folder
+        id: folder
+        run: |
+          T="${{ steps.tier.outputs.tier }}"
+          FOLDER=$(echo "$T" | tr '[:upper:]' '[:lower:]')
+          echo "folder=$FOLDER" >> $GITHUB_OUTPUT
+
+      - name: 🔑 Assign Discord Role
+        run: |
+          case "${{ steps.tier.outputs.tier }}" in
+            Bronze) ROLE_ID=$BRONZE_ROLE_ID ;;
+            Silver) ROLE_ID=$SILVER_ROLE_ID ;;
+            Gold)   ROLE_ID=$GOLD_ROLE_ID ;;
+            Platinum) ROLE_ID=$PLATINUM_ROLE_ID ;;
+          esac
+          curl -s -X PUT \
+            "https://discord.com/api/guilds/$DISCORD_GUILD_ID \
+            /members/${{ github.event.inputs.discord_id }}/roles/$ROLE_ID" \
+            -H "Authorization: Bot $DISCORD_BOT_TOKEN"
+
+      - name: 📬 DM Artifact Link
+        run: |
+          # Open DM channel
+          DM_ID=$(curl -s \
+            -H "Authorization: Bot $DISCORD_BOT_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"recipient_id\":\"${{ github.event.inputs.discord_id }}\"}" \
+            https://discord.com/api/users/@me/channels \
+            | jq -r .id)
+          ART_URL="https://vault.kypria.com/artifacts/${{ steps.folder.outputs.folder }}/${{ github.event.inputs.discord_id }}"
+          curl -s -X POST \
+            "https://discord.com/api/channels/$DM_ID/messages" \
+            -H "Authorization: Bot $DISCORD_BOT_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"content\":\"🎁 Your ${{ steps.tier.outputs.tier }} artifact is ready: $ART_URL\"}"
+
+      - name: 🛠 Log to Sponsor Channel
+        run: |
+          ART_URL="https://vault.kypria.com/artifacts/${{ steps.folder.outputs.folder }}/${{ github.event.inputs.discord_id }}"
+          curl -s -X POST \
+            "https://discord.com/api/channels/$SPONSOR_LOG_CHANNEL_ID/messages" \
+            -H "Authorization: Bot $DISCORD_BOT_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"content\":\"🔥 New **${{ steps.tier.outputs.tier }}** Sponsor: **${{ github.event.inputs.sponsor_name }}** (<@${{ github.event.inputs.discord_id }}>) pledged **\$${{ github.event.inputs.pledge_amount }}**\nArtifact: $ART_URL\"}"
+
+      - name: 📜 Commit Relic to Vault
+        run: |
+          TIMESTAMP=$(date -u +"%Y%m%dT%H%M%SZ")
+          DIR=vault/sponsors/${{ steps.folder.outputs.folder }}
+          mkdir -p "$DIR"
+          FILE="$DIR/${{ github.event.inputs.discord_id }}_$TIMESTAMP.md"
+          cat <<EOF > "$FILE"
+          # Sponsor Relic: ${{ github.event.inputs.sponsor_name }}
+
+          - Discord ID: ${{ github.event.inputs.discord_id }}
+          - Tier: ${{ steps.tier.outputs.tier }}
+          - Pledge: \${{ github.event.inputs.pledge_amount }}
+          - Artifact URL: https://vault.kypria.com/artifacts/${{ steps.folder.outputs.folder }}/${{ github.event.inputs.discord_id }}
+          - Granted by: ${{ github.actor }}
+          - Timestamp: $TIMESTAMP
+          EOF
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$FILE"
+          git commit -m "feat: add ${{ steps.tier.outputs.tier }} sponsor relic for ${{ github.event.inputs.sponsor_name }}"
+          git push
