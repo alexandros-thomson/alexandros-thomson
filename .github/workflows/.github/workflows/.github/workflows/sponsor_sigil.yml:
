@@ -1,0 +1,35 @@
+name: 🔥 Sponsor Sigil Invocation
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "vault/**"
+      - "src/**"
+      - ".github/workflows/sponsor_sigil.yml"
+
+jobs:
+  grant-access-and-etch-history:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🧾 Checkout Canon
+        uses: actions/checkout@v4
+
+      - name: 📜 Etch Canon into Discord Logbook
+        run: |
+          echo "🪄 New cycle invoked by ${{ github.actor }}"
+          curl -X POST -H "Content-Type: application/json" \
+            -d '{"username": "SigilBot", "content": "🔥 A sponsor sigil was cast by ${{ github.actor }}. Canon updated."}' \
+            ${{ secrets.DISCORD_WEBHOOK }}
+
+      - name: 🔑 Grant Sponsor Role
+        run: |
+          curl -X POST -H "Authorization: Bearer ${{ secrets.SPONSOR_API_KEY }}" \
+            -d '{"discord_id": "${{ secrets.DISCORD_ID }}", "role": "Sponsor"}' \
+            https://api.kypria.io/roles/grant
+
+      - name: 🧵 Drop Artifact in Vault
+        run: |
+          echo "Generating artifact..."
+          mkdir -p vault/sponsor_drop
+          echo "Blessed by ${{ github.actor }} on $(date)" > vault/sponsor_drop/README.md
