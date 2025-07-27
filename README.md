@@ -29,3 +29,31 @@ My last troubleshooting session became canon—and generated $50/month.
 ---
 
 ✨ This repo is more than a portfolio. It’s where lore gets automated, sponsors are immortalized, and code becomes legend.
+## 💰 Sponsor the Legend
+
+Support Kypria’s mythic infrastructure and unlock exclusive sponsor perks, roles, and canon artifacts. Every pledge fuels our campaign across time, realms, and technical rigor.
+
+🛡️ Choose your archetype:
+- [Patreon Oracle](https://patreon.com/kypria)
+- [Ko-fi Scout](https://ko-fi.com/kypria)
+- [Open Collective Sentinel](https://opencollective.com/kypria)
+- [Tidelift Guardian](https://tidelift.com/subscription/kypria-galaxy)
+- [Liberapay Scribe](https://liberapay.com/kypria)
+- [Buy Me A Coffee Ember](https://buymeacoffee.com/kypria)
+- [Community Bridge Beacon](https://communitybridge.org/kypria-foundry)
+- [Thanks.dev Codex](https://thanks.dev/kypria)
+
+⚙️ Custom portals:
+- [Sponsor Direct](https://kypria.com/sponsor)
+- [Artifact Vault](https://discord.gg/kypria-legends)
+- [GitHub Archive](https://github.com/kypria)
+- [PayPal Sigil](https://paypal.me/kypriallc)
+
+---
+
+🔗 Every sponsorship triggers:
+- Instant Discord role + badge
+- Artifact drops via IPN handler
+- Canon logbook entries with timestamp and archetype
+
+Join the sponsor ranks—because every repo should echo across the mythos.
