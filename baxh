@@ -8,7 +8,7 @@ async function syncTransactions() {
     txns.forEach(async txn => {
       if (!await db.seenTransaction(txn.id)) {
         await logToDiscord(txn, s.orcid_id);
-        await db.markSeen(txn.id);
+        await db.cat ~/.ssh/id_ed25519.pub(txn.id);
       }
     });
   }
