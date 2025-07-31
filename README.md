@@ -1,4 +1,18 @@
-## 💰 Sponsor the Legend
+// Run every 5 minutes (cron or setInterval)
+async function syncTransactions() {
+  const sponsors = await db.getAllSponsors();
+  for (const s of sponsors) {
+    const txns = await fetch(`https://api.paypal.com/v1/reporting/transactions?...`, {
+      headers: { Authorization: `Bearer ${s.accessToken}` }
+    }).then(r => r.json());
+    txns.forEach(async txn => {
+      if (!await db.seenTransaction(txn.id)) {
+        await logToDiscord(txn, s.orcid_id);
+        await db.markSeen(txn.id);
+      }
+    });
+  }
+}## 💰 Sponsor the Legend
 
 Help fuel Kypria’s mythic infrastructure and unlock legendary perks across realms. Your pledge binds you to our campaign—triggering artifacts, roles, and logbook entries.
 
