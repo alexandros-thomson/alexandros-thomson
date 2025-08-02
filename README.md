@@ -1,4 +1,4 @@
-![
+Status](https://github.com/alexandros-thomson/alexandros-thomson/actions/workflows/summary.yml/badge.svg)](https://github.com/alexandros-thomson/alexandros-thomson/actions/workflows/summary.yml)![
 ![Release](httpCI](https://github.com/alexandros-thomson/alexandros-thomson/actions/workflows/ci.yml/badge.svg)s://img.shields.io/github/v/release/alexandros-thomson/alexandros-thomson)
 ![License](https://img.shields.io/github/license/alexandros-thomson/alexandros-thomson)
 
