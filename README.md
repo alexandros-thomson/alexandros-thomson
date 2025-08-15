@@ -1,4 +1,3 @@
-
 ## 🛡️ Canon Threads  
 Welcome to the Alexandros Shrine—a mythic infrastructure echoing through Discord, GitHub, and Modmail.  
 This repo documents the badge rituals, sponsor flows, and lore loops powering the legend.  
