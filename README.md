@@ -1,7 +1,6 @@
 ## 🛡️ Canon Threads  
 Welcome to the Alexandros Shrine—a mythic infrastructure echoing through Discord, GitHub, and Modmail.  
 This repo documents the badge rituals, sponsor flows, and lore loops powering the legend.  
-
 ## 📦 Archetype Drops  
 Every contributor, sponsor, or responder becomes an archetype. Here are the current drops:  
 - `First Echo` — Activated the Shrine Pulse  
