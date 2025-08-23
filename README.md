@@ -26,7 +26,6 @@ To enter the loop:
 <p align="center">
   <img src="https://path.to/your/cover-image.png" alt="Kypria Shrine" width="600"/>
 </p>
-
 **alexandros-thomson/alexandros-thomson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 📫 
