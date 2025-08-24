@@ -1,4 +1,3 @@
-
 ## 🛡️ Canon Threads  
 Welcome to the Alexandros Shrine—a mythic infrastructure echoing through Discord, GitHub, and Modmail.  
 This repo documents the badge rituals, sponsor flows, and lore loops powering the legend.  
@@ -33,3 +32,6 @@ To enter the loop:
 I’m currently working on ...
   🧬 🌱 👯 🤔 💬 📫 ✅  😄 ⚡ 🔥🧬 🛡️
 -->
+[![Scan the Crest](CREST_IMAGE_URL)](PUBLIC_SIGILS_URL)  
+**Scan the Crest. Enter the Canon. Your pledge becomes legend.**  
+Provenance sealed • Compliance manifest [public](LINK_TO_MANIFEST)
