@@ -1,6 +1,4 @@
-git add README.md
-git commit -m "📜 Fix README — remove duplicate shrine block"
-git push origin main
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/title-gold.svg" alt="Kypria — Shrine of the Sealed Canon" width="92%">
 </p>
@@ -26,3 +24,4 @@ git push origin main
   </a>
 </p>
 
+📜 Add shrine image block to profile README
