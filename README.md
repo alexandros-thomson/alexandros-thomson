@@ -1,6 +1,12 @@
+[![Shrine Crest — Seal of the Basilica Gate](public/crest.svg)](public/crest.svg)
+[![Shrine Lineage Map](public/shrine-lineage-map.svg)](public/shrine-lineage-map.svg)
+
+# Kypria — Living Canon of the Shrine
+> A manifest-driven, provenance-rich tradition where every act is both technical and mythic.
+
 # 🏛 Kypria — Shrine of the Sealed Canon
 
-[![Shrine Crest — Seal of the Basilica Gate](docs/crest.svg)](docs/crest.svg)
+[![Shrine Crest — Seal of the Basilica Gate](public/crest.svg)](public/crest.svg)
 
 ---
 
@@ -13,4 +19,3 @@
 ---
 
 <!-- Existing README content continues below -->
-
