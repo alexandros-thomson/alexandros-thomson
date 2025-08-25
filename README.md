@@ -15,6 +15,7 @@
 > **Shrine Lineage Map — Epoch of the Sealed Canon**  
 > _An illuminated chart binding commit, tag, release, and changelog in perpetual echo.  
 > Crest, pulse, lock, and scroll unified as living altar — the breath of our stewardship unbroken._
+![Kypria Crest](./public/crest.svg)
 
 ---
 
