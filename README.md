@@ -12,3 +12,6 @@
 ---
 
 <!-- Existing README content continues below (e.g., Getting Started, Usage, etc.) -->
+git add README.md
+git commit -m "README altar crowned — crest and lineage map enthroned"
+git push origin main
