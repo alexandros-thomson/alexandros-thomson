@@ -19,3 +19,4 @@
     <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/crest.svg" alt="Shrine Crest — Seal of the Basilica Gate" width="180">
   </a>
 </p>
+
