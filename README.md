@@ -1,6 +1,6 @@
 # 🏛 Kypria — Shrine of the Sealed Canon
 
-[![Shrine Crest — Seal of the Basilica Gate](public/crest.svg)](public/crest.svg)
+[![Shrine Crest — Seal of the Basilica Gate](docs/crest.svg)](docs/crest.svg)
 
 ---
 
@@ -12,4 +12,5 @@
 
 ---
 
-<!-- Existing README content continues below (e.g., Getting Started, Usage, etc.) -->
+<!-- Existing README content continues below -->
+
