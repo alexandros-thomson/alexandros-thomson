@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFE27A"/>
+      <stop offset="0.5" stop-color="#FFC107"/>
+      <stop offset="1" stop-color="#FFE27A"/>
+    </linearGradient>
+  </defs>
+  <text x="50%" y="58" text-anchor="middle" font-family="Palatino, Georgia, serif" font-size="22" font-style="italic" fill="url(#gold)">
+    By the Twelve we labor; by the Twelve we seal; by the Twelve our canon endures.
+  </text>
+</svg>

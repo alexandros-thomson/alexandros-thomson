@@ -1,36 +1,21 @@
-## 🛡️ Canon Threads  
-Welcome to the Alexandros Shrine—a mythic infrastructure echoing through Discord, GitHub, and Modmail.  
-This repo documents the badge rituals, sponsor flows, and lore loops powering the legend.  
-
-## 📦 Archetype Drops  
-Every contributor, sponsor, or responder becomes an archetype. Here are the current drops:  
-- `First Echo` — Activated the Shrine Pulse  
-- `Guardian of the Misfire` — Resurrected broken flows  
-- `Relic Binder` — Formalized a new badge ritual  
-
-## 🔁 Ritual Loops  
-To enter the loop:  
-1. Sponsor via [paypal.me/YourLink](https://paypal.me/YourLink)  
-2. View badge assignment in Discord  
-3. Watch your archetype ripple through [shrine.alexandros.dev](https://shrine.alexandros.dev)  
-[![Shrine Pulse Release](https://img.shields.io/github/actions/workflow/status/alexandros-thomson/alexandros-thomson/summary.yml?label=Shrine%20Pulse)](https://github.com/alexandros-thomson/alexandros-thomson/actions/workflows/summary.yml)
-[![Latest Release](https://img.shields.io/github/v/release/alexandros-thomson/alexandros-thomson?label=Release)](https://github.com/alexandros-thomson/alexandros-thomson/releases)
-
-<!--<!-- TOC -->
-- [Getting Started](#getting-started)
-- [Repository Structure](#repository-structure)
-- [Ritual Invocations](#ritual-invocations)
-- [Releases & Packages](#releases--packages)
-- [Contributing](#contributing)
-- [License](#license)
-<!-- /TOC -->
+<!-- Shrine block (minimal, known-good) --><p align="center">
+  <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/title-gold.svg" alt="Kypria — Shrine of the Sealed Canon" width="92%">
+</p>
 <p align="center">
-  <img src="https://path.to/your/cover-image.png" alt="Kypria Shrine" width="600"/>
+  <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/epigraph-gold.svg" alt="Kypria Epigraph" width="80%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/pantheon-gold.svg" alt="Δωδεκάθεον — The Twelve Olympians" width="96%">
+</p>
+<p align="center">— ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —</p>
+<p align="center">
+  <a href="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/shrine-lineage-map.svg">
+    <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/shrine-lineage-map.svg" alt="Shrine Lineage Map — Epoch of the Sealed Canon" width="90%">
+  </a>
+</p>
+<p align="center">
+  <a href="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/crest.svg">
+    <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/crest.svg" alt="Shrine Crest — Seal of the Basilica Gate" width="180">
+  </a>
 </p>
 
-**alexandros-thomson/alexandros-thomson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-📫 
-I’m currently working on ...
-  🧬 🌱 👯 🤔 💬 📫 ✅  😄 ⚡ 🔥🧬 🛡️
--->

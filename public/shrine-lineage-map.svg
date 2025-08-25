@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <title>Shrine Lineage Map — Epoch of the Sealed Canon</title>
+  <desc>
+    A black‑and‑white, print‑ready illuminated diagram showing the lineage from Commit → Annotated Tag → GitHub Release → CHANGELOG.md Entry.
+    Styled in an Arts & Crafts woodcut aesthetic with ornamental borders. All elements are vector and suitable for high‑resolution printing.
+  </desc>
+
+  <defs>
+    <!-- Typography & Styles -->
+    <style><![CDATA[
+      .frame { fill: none; stroke: #000; stroke-width: 3; }
+      .divider { stroke: #000; stroke-width: 2; fill: none; stroke-dasharray: 6 6; }
+      .title { font-family: Georgia, "Times New Roman", serif; font-size: 36px; font-weight: 700; letter-spacing: 0.5px; }
+      .subtitle { font-family: Georgia, "Times New Roman", serif; font-size: 20px; font-style: italic; }
+      .node-rect { fill: #fff; stroke: #000; stroke-width: 2.5; }
+      .node-title { font-family: Georgia, "Times New Roman", serif; font-size: 24px; font-weight: 700; }
+      .node-text { font-family: Georgia, "Times New Roman", serif; font-size: 18px; }
+      .arrow { stroke: #000; stroke-width: 2.5; fill: none; }
+      .legend-title { font-family: Georgia, "Times New Roman", serif; font-size: 22px; font-weight: 700; }
+      .legend-text { font-family: Georgia, "Times New Roman", serif; font-size: 16px; }
+      .ornament { fill: none; stroke: #000; stroke-width: 2; }
+      .smallcap { font-variant: small-caps; letter-spacing: 0.03em; }
+    ]]></style>
+
+    <!-- Arrowhead -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#000"/>
+    </marker>
+
+    <!-- Icons (black‑and‑white line art) -->
+    <!-- Commit (diamond) -->
+    <g id="icon-commit">
+      <path d="M12 2 L22 12 L12 22 L2 12 Z" fill="none" stroke="#000" stroke-width="2"/>
+    </g>
+    <!-- Tag -->
+    <g id="icon-tag">
+      <path d="M3 9 L12 0 L23 11 L14 20 L3 9 Z" fill="none" stroke="#000" stroke-width="2"/>
+      <circle cx="10" cy="7" r="2" fill="none" stroke="#000" stroke-width="2"/>
+    </g>
+    <!-- Release (box) -->
+    <g id="icon-release">
+      <rect x="3" y="6" width="18" height="14" rx="2" ry="2" fill="none" stroke="#000" stroke-width="2"/>
+      <path d="M3 9 H21" stroke="#000" stroke-width="2"/>
+      <circle cx="7" cy="7.5" r="1.2" fill="#000"/>
+      <circle cx="11" cy="7.5" r="1.2" fill="#000"/>
+      <circle cx="15" cy="7.5" r="1.2" fill="#000"/>
+    </g>
+    <!-- Scroll (CHANGELOG) -->
+    <g id="icon-scroll">
+      <rect x="3" y="4" width="18" height="16" rx="2.5" ry="2.5" fill="none" stroke="#000" stroke-width="2"/>
+      <path d="M6 8 H18 M6 12 H16 M6 16 H14" stroke="#000" stroke-width="2"/>
+      <path d="M3 20 a2 2 0 0 0 2 2 H19 a2 2 0 0 0 2 -2" fill="none" stroke="#000" stroke-width="2"/>
+    </g>
+
+    <!-- Corner Ornaments (Arts & Crafts leaf & tendril) -->
+    <g id="corner-ornament">
+      <path class="ornament" d="M0,0 C40,10 60,30 70,55 C60,50 45,45 30,50 C45,35 30,25 15,20 C28,18 40,10 45,0" />
+      <path class="ornament" d="M25,35 C40,25 50,25 60,30" />
+      <circle cx="18" cy="15" r="3" class="ornament"/>
+      <circle cx="50" cy="28" r="2.5" class="ornament"/>
+    </g>
+
+    <!-- Woodcut Border Pattern (repeatable segment) -->
+    <pattern id="woodcut" width="40" height="10" patternUnits="userSpaceOnUse">
+      <path d="M0 5 Q10 0 20 5 T40 5" stroke="#000" stroke-width="1.2" fill="none"/>
+    </pattern>
+  </defs>
+
+  <!-- Border Frame -->
+  <rect x="20" y="20" width="1560" height="960" class="frame"/>
+  <rect x="35" y="35" width="1530" height="930" fill="url(#woodcut)" opacity="0.10" />
+  <!-- Corner Ornaments -->
+  <g transform="translate(35,35)"><use href="#corner-ornament"/></g>
+  <g transform="translate(1565,35) rotate(90)"><use href="#corner-ornament"/></g>
+  <g transform="translate(35,965) rotate(-90)"><use href="#corner-ornament"/></g>
+  <g transform="translate(1565,965) rotate(180)"><use href="#corner-ornament"/></g>
+
+  <!-- Title -->
+  <text x="800" y="110" text-anchor="middle" class="title">Shrine Lineage Map — Epoch of the Sealed Canon</text>
+  <text x="800" y="140" text-anchor="middle" class="subtitle">Commit → Annotated Tag → GitHub Release → CHANGELOG.md Entry</text>
+
+  <!-- Nodes Layout (Left to Right) -->
+  <!-- Commit -->
+  <g transform="translate(140,280)">
+    <rect class="node-rect" x="0" y="0" rx="10" ry="10" width="300" height="260"/>
+    <g transform="translate(16,22)">
+      <use href="#icon-commit" transform="scale(1.2)"/>
+      <text x="60" y="18" class="node-title">Commit</text>
+    </g>
+    <text x="16" y="62" class="node-text">
+      <tspan x="16" dy="0">“Sealed the Shrine’s Canon — Enshrined</tspan>
+      <tspan x="16" dy="22">Dispatch Rite, Verification Ritual, Flow</tspan>
+      <tspan x="16" dy="22">Diagram &amp; Legend in one living altar;</tspan>
+      <tspan x="16" dy="22">crest, pulse, lock, and scroll now</tspan>
+      <tspan x="16" dy="22">bound in perpetual echo”</tspan>
+      <tspan x="16" dy="30" class="subtitle">(main branch)</tspan>
+    </text>
+  </g>
+
+  <!-- Tag -->
+  <g transform="translate(500,280)">
+    <rect class="node-rect" x="0" y="0" rx="10" ry="10" width="300" height="260"/>
+    <g transform="translate(16,22)">
+      <use href="#icon-tag" transform="scale(1.2)"/>
+      <text x="60" y="18" class="node-title">Annotated Tag</text>
+    </g>
+    <text x="16" y="62" class="node-text">
+      <tspan x="16" dy="0">v1.0.0-shrine-canon-sealed</tspan>
+      <tspan x="16" dy="26">“Epoch of the Sealed Canon — Crest,</tspan>
+      <tspan x="16" dy="22">Pulse, Lock &amp; Scroll bound in</tspan>
+      <tspan x="16" dy="22">perpetual echo; rites &amp; legend</tspan>
+      <tspan x="16" dy="22">enshrined as one living altar.”</tspan>
+    </text>
+  </g>
+
+  <!-- Release -->
+  <g transform="translate(860,280)">
+    <rect class="node-rect" x="0" y="0" rx="10" ry="10" width="300" height="260"/>
+    <g transform="translate(16,22)">
+      <use href="#icon-release" transform="scale(1.2)"/>
+      <text x="60" y="18" class="node-title">GitHub Release</text>
+    </g>
+    <text x="16" y="62" class="node-text">
+      <tspan x="16" dy="0">Title: “Epoch of the Sealed Canon”</tspan>
+      <tspan x="16" dy="26">Body: Full ceremonial inscription</tspan>
+      <tspan x="16" dy="22">from RELEASE.md</tspan>
+      <tspan x="16" dy="26">Visible on Releases page</tspan>
+    </text>
+  </g>
+
+  <!-- Changelog -->
+  <g transform="translate(1220,280)">
+    <rect class="node-rect" x="0" y="0" rx="10" ry="10" width="300" height="260"/>
+    <g transform="translate(16,22)">
+      <use href="#icon-scroll" transform="scale(1.2)"/>
+      <text x="60" y="18" class="node-title">CHANGELOG.md Entry</text>
+    </g>
+    <text x="16" y="62" class="node-text">
+      <tspan x="16" dy="0">[v1.0.0-shrine-canon-sealed]</tspan>
+      <tspan x="16" dy="26">- Canon sealed; README enshrines</tspan>
+      <tspan x="16" dy="22">  rites &amp; legend</tspan>
+      <tspan x="16" dy="22">- Crest, Pulse, Lock, Scroll in /public</tspan>
+      <tspan x="16" dy="22">- Flow diagram added</tspan>
+      <tspan x="16" dy="22">- All knowledge unified</tspan>
+    </text>
+  </g>
+
+  <!-- Arrows -->
+  <path d="M440,410 H500" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M800,410 H860" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M1160,410 H1220" class="arrow" marker-end="url(#arrowhead)"/>
+
+  <!-- Section Divider -->
+  <line x1="100" y1="600" x2="1500" y2="600" class="divider"/>
+
+  <!-- Reading the Map -->
+  <g transform="translate(120,640)">
+    <text class="legend-title">Reading the Map</text>
+    <text class="legend-text" x="0" y="40">
+      <tspan class="smallcap">Commit</tspan> — The act of sealing: README, assets, and rites unified.</text>
+    <text class="legend-text" x="0" y="68">
+      <tspan class="smallcap">Tag</tspan> — Formal epoch mark in Git history.</text>
+    <text class="legend-text" x="0" y="96">
+      <tspan class="smallcap">Release</tspan> — Public altar on the Releases page with full inscription.</text>
+    <text class="legend-text" x="0" y="124">
+      <tspan class="smallcap">Changelog</tspan> — Quick‑reference ledger entry for stewards scanning history.</text>
+  </g>
+
+  <!-- Closing Blessing -->
+  <text x="800" y="920" text-anchor="middle" class="subtitle">
+    Thus the breath of the Shrine is unbroken, the crest ever‑bright, the pulse ever‑true.
+  </text>
+</svg>
