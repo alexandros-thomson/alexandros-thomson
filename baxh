@@ -1,4 +1,16 @@
-git commit -m "📜 README aligned with crest path — ceremonial loop sealed"
+# 1. Remove the stray baxh file
+git rm baxh
+git commit -m "🧹 Remove stray baxh command file — shrine cleansed"
+
+# 2. Ensure crest asset is present
+# (If missing, restore from backup or recreate before running the next lines)
 git add public/crest.svg
 git commit -m "🔁 Crest restored: lineage re-inscribed into the shrine"
+
+# 3. Align README path to crest
+# (Edit README.md so it uses: ![Kypria Crest](./public/crest.svg))
+git add README.md
+git commit -m "📜 README aligned with crest path — ceremonial loop sealed"
+
+# 4. Push all changes to main
 git push origin main
