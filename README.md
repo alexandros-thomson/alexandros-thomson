@@ -1,3 +1,4 @@
+<!-- Shrine block (minimal, known-good) -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/title-gold.svg" alt="Kypria — Shrine of the Sealed Canon" width="92%">
 </p>
@@ -18,4 +19,3 @@
     <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/crest.svg" alt="Shrine Crest — Seal of the Basilica Gate" width="180">
   </a>
 </p>
-📜 Replace text headings with shrine image block
