@@ -1,5 +1,4 @@
-<!-- Shrine block (minimal, known-good) -->
-<p align="center">
+<!-- Shrine block (minimal, known-good) --><p align="center">
   <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/title-gold.svg" alt="Kypria — Shrine of the Sealed Canon" width="92%">
 </p>
 <p align="center">
