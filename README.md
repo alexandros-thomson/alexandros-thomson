@@ -1,9 +1,10 @@
 # 🏛 Kypria — Shrine of the Sealed Canon
-![Crest](public/crest.svg)
+
+[![Shrine Crest — Seal of the Basilica Gate](public/crest.svg)](public/crest.svg)
 
 ---
 
-[![Shrine Lineage Map](public/shrine-lineage-map.svg)](public/shrine-lineage-map.svg)
+[![Shrine Lineage Map — Epoch of the Sealed Canon](public/shrine-lineage-map.svg)](public/shrine-lineage-map.svg)
 
 > **Shrine Lineage Map — Epoch of the Sealed Canon**  
 > _An illuminated chart binding commit, tag, release, and changelog in perpetual echo.  
