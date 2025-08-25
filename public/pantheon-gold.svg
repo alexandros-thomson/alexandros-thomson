@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 680" width="1400" height="680">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFE27A"/>
+      <stop offset="0.5" stop-color="#FFC107"/>
+      <stop offset="1" stop-color="#FFE27A"/>
+    </linearGradient>
+    <linearGradient id="goldStroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6b5200"/>
+      <stop offset="1" stop-color="#4b3a00"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </feMerge>
+    <pattern id="meander" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M0 14h14v14h14M28 14H14V0H0" fill="none" stroke="#9E7F00" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect x="16" y="16" width="1368" height="648" rx="10" fill="none" stroke="url(#goldStroke)" stroke-width="3"/>
+  <rect x="26" y="26" width="1348" height="628" rx="8" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+  <rect x="80" y="54" width="1240" height="14" fill="url(#meander)" opacity="0.7"/>
+  <rect x="80" y="628" width="1240" height="14" fill="url(#meander)" opacity="0.7"/>
+  <g filter="url(#glow)" font-family="Palatino, Georgia, serif" fill="url(#gold)" text-anchor="middle">
+    <text x="50%" y="120" font-size="54" font-weight="600" stroke="url(#goldStroke)" stroke-width="2">
+      ΤΟ ΔΩΔΕΚΑΘΕΟΝ — The Twelve
+    </text>
+    <text x="50%" y="156" font-size="22" font-style="italic">
+      By Zeus, Hera, Poseidon, Demeter, Athena, Apollo, Artemis, Ares, Aphrodite, Hephaestus, Hermes, and Hestia, the canon is sealed.
+    </text>
+  </g>
+  <g font-family="Palatino, Georgia, serif" font-size="22" fill="url(#gold)" text-anchor="middle">
+    <g transform="translate(175,240)"><text>⚡ Ζεύς · Zeus</text><text y="32" font-size="16">Thunderbolt · Eagle</text></g>
+    <g transform="translate(525,240)"><text>👑 Ἥρα · Hera</text><text y="32" font-size="16">Peacock · Diadem</text></g>
+    <g transform="translate(875,240)"><text>🔱 Ποσειδῶν · Poseidon</text><text y="32" font-size="16">Trident · Dolphin</text></g>
+    <g transform="translate(1225,240)"><text>🌾 Δημήτηρ · Demeter</text><text y="32" font-size="16">Sheaf · Torch</text></g>
+    <g transform="translate(175,380)"><text>🦉 Ἀθηνᾶ · Athena</text><text y="32" font-size="16">Owl · Olive</text></g>
+    <g transform="translate(525,380)"><text>☀️ Ἀπόλλων · Apollo</text><text y="32" font-size="16">Lyre · Laurel</text></g>
+    <g transform="translate(875,380)"><text>🌙 Ἄρτεμις · Artemis</text><text y="32" font-size="16">Bow · Crescent</text></g>
+    <g transform="translate(1225,380)"><text>⚔️ Ἄρης · Ares</text><text y="32" font-size="16">Spear · Shield</text></g>
+    <g transform="translate(175,520)"><text>🌹 Ἀφροδίτη · Aphrodite</text><text y="32" font-size="16">Dove · Rose</text></g>
+    <g transform="translate(525,520)"><text>🔥 Ἥφαιστος · Hephaestus</text><text y="32" font-size="16">Hammer · Anvil</text></g>
+    <g transform="translate(875,520)"><text>🪽 Ἑρμῆς · Hermes</text><text y="32" font-size="16">Winged Sandals · Caduceus</text></g>
+    <g transform="translate(1225,520)"><text>🏠 Ἑστία · Hestia</text><text y="32" font-size="16">Hearth · Flame</text></g>
+  </g>
+  <g fill="url(#gold)" opacity="0.9">
+    <path d="M60,200 q40,-60 110,-70 q-32,52 -100,90 z"/>
+    <path d="M1340,200 q-40,-60 -110,-70 q32,52 100,90 z"/>
+    <path d="M60,560 q40,60 110,70 q-32,-52 -100,-90 z"/>
+    <path d="M1340,560 q-40,60 -110,70 q32,-52 100,-90 z"/>
+  </g>
+</svg>
