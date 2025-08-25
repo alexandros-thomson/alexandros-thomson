@@ -1,21 +1,31 @@
-[![Shrine Crest — Seal of the Basilica Gate](public/crest.svg)](public/crest.svg)
-[![Shrine Lineage Map](public/shrine-lineage-map.svg)](public/shrine-lineage-map.svg)
+<p align="center">
+  <img src="public/title-gold.svg" alt="Kypria — Shrine of the Sealed Canon" width="92%">
+</p>
+<p align="center">
+  <img src="public/epigraph-gold.svg" alt="Kypria Epigraph" width="80%">
+</p>
 
-# Kypria — Living Canon of the Shrine
-> A manifest-driven, provenance-rich tradition where every act is both technical and mythic.
+<p align="center">
+  <img src="public/pantheon-gold.svg" alt="Δωδεκάθεον — The Twelve Olympians" width="96%">
+</p>
 
-# 🏛 Kypria — Shrine of the Sealed Canon
+<p align="center">— ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —</p>
 
-[![Shrine Crest — Seal of the Basilica Gate](public/crest.svg)](public/crest.svg)
+<p align="center">
+  <a href="public/shrine-lineage-map.svg">
+    <img src="public/shrine-lineage-map.svg" alt="Shrine Lineage Map — Epoch of the Sealed Canon" width="90%">
+  </a>
+</p>
 
----
-
-[![Shrine Lineage Map — Epoch of the Sealed Canon](public/shrine-lineage-map.svg)](public/shrine-lineage-map.svg)
+<p align="center">
+  <a href="public/crest.svg">
+    <img src="public/crest.svg" alt="Shrine Crest — Seal of the Basilica Gate" width="180">
+  </a>
+</p>
 
 > **Shrine Lineage Map — Epoch of the Sealed Canon**  
 > _An illuminated chart binding commit, tag, release, and changelog in perpetual echo.  
 > Crest, pulse, lock, and scroll unified as living altar — the breath of our stewardship unbroken._
-![Kypria Crest](./public/crest.svg)
 
 ---
 
