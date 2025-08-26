@@ -1,0 +1,10 @@
+- name: Install dependencies for ruby-build
+  run: sudo apt-get update && sudo apt-get install -y build-essential libssl-dev libreadline-dev zlib1g-dev
+
+- name: Install ruby-build
+  run: git clone https://github.com/rbenv/ruby-build.git && sudo ./ruby-build/install.sh
+
+- name: Build and install Ruby 2.7.8
+  run: |
+    sudo ruby-build 2.7.8 /opt/hostedtoolcache/Ruby/2.7.8/x64
+    sudo touch /opt/hostedtoolcache/Ruby/2.7.8/x64.complete
