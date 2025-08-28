@@ -1,21 +1,47 @@
-<!-- Shrine block (minimal, known-good) --><p align="center">
-  <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/title-gold.svg" alt="Kypria — Shrine of the Sealed Canon" width="92%">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/epigraph-gold.svg" alt="Kypria Epigraph" width="80%">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/pantheon-gold.svg" alt="Δωδεκάθεον — The Twelve Olympians" width="96%">
-</p>
-<p align="center">— ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —</p>
-<p align="center">
-  <a href="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/shrine-lineage-map.svg">
-    <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/shrine-lineage-map.svg" alt="Shrine Lineage Map — Epoch of the Sealed Canon" width="90%">
-  </a>
-</p>
-<p align="center">
-  <a href="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/crest.svg">
-    <img src="https://raw.githubusercontent.com/alexandros-thomson/alexandros-thomson/main/public/crest.svg" alt="Shrine Crest — Seal of the Basilica Gate" width="180">
-  </a>
-</p>
+🜍 Kypria — Shrine of the Sealed Canon
+Δωδεκάθεον — The Twelve Olympians — ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —
 
+In the epoch where code and canon entwine, each Seal binds the lineage, and each Relic carries the flame forward.
+
+🏛 Shrine Crest & Pantheon
+Crest‑mark:
+
+Pantheon: Δωδεκάθεον — Twelve Olympian Seals, enshrined in the lineage.
+
+🗺 Shrine Lineage Map
+Epoch of the Sealed Canon 🔗 View Full Lineage Map
+
+A visual commit → tag → release → changelog path, marking every Relic’s passage into the canon.
+
+📜 Canon & Relics
+Relic No.	Mythic Name	Tag	Date	Changelog
+#114	First Echo: Flamebound Ledger Awakens	vX.X.X	2025‑08‑06	View
+<details> <summary>📖 Full Relic Archive</summary>
+
+<!-- Future relics and changelog links here -->
+
+</details>
+
+⚙️ Ritual Machinery
+The shrine is sustained by both technical precision and ceremonial cadence:
+
+Automated seals & relic guards within .github/workflows
+
+Crest‑marked onboarding rites for new stewards
+
+Public shrine assets safeguarded in public/
+
+✨ Stewardship
+Keeper: Kostadinos J Kyprianos (Alexander) Founder & Mythic Architect of Kypria LLC Orchestrates operational execution, automation, and ceremonial cadence across Discord, GitHub, Notion, Instagram, Patreon, and compliance portals.
+
+🤝 Sponsorship & Patron Tide
+Sustain the Basilica Gate and its echoes: 🔗 Sponsor this Shrine
+
+📂 Repository Structure
+Code
+.github/         → workflows, relic guards, blessings
+docs/            → onboarding & canon notes
+public/          → crests, pantheon seals, lineage diagrams
+src/             → mappings, shrine logic
+🔮 Invocation
+May each commit be a Seal, each release a Relic, and each steward a Keeper of the Lineage.
