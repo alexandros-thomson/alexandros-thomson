@@ -18,3 +18,5 @@
     <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/crest.svg?raw=1" alt="Shrine Crest — Seal of the Basilica Gate" width="180">
   </a>
 </p>
+The Keeper’s Seal is affixed and the rite complete.  
+May the Shrine be strengthened by this new lineage.
