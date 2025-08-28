@@ -1,0 +1,33 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Keeper's Blessing in gold lettering on black">
+  <defs>
+    <!-- Black basilica field -->
+    <linearGradient id="bgShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000"></stop>
+      <stop offset="100%" stop-color="#050505"></stop>
+    </linearGradient>
+
+    <!-- Gold inscription gradient -->
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF3B0"></stop>
+      <stop offset="35%" stop-color="#FFD66B"></stop>
+      <stop offset="65%" stop-color="#D4AF37"></stop>
+      <stop offset="100%" stop-color="#9C7C1B"></stop>
+    </linearGradient>
+
+    <!-- Subtle bevel highlight for strokes -->
+    <linearGradient id="goldStroke" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF6C8" stop-opacity="0.85"></stop>
+      <stop offset="100%" stop-color="#8A6B15" stop-opacity="0.85"></stop>
+    </linearGradient>
+
+    <!-- Halo / temple-glow -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+  </defs>
+</svg>
