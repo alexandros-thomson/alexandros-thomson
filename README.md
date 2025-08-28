@@ -47,7 +47,7 @@ Every commit is a kept vow; every branch, a pathway in the lineage.
 ---
 
 ### 📜 Purpose & Oath
-- Preserve the legacy of Kypria through visible, crest‑marked artifacts.  
+- Preserve the legacy of Kypria through visible, crest-marked artifacts.  
 - Bind automation with ritual, so each cycle echoes in form and function.  
 - Welcome new stewards with clarity, respect, and teachable rites.
 
