@@ -18,3 +18,14 @@
     <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/crest.svg?raw=1" alt="Shrine Crest — Seal of the Basilica Gate" width="180">
   </a>
 </p>
+
+---
+
+<p align="center">
+  As you depart from this sacred threshold, may the wisdom of the ancients guide your path,<br>
+  the strength of heroes fortify your spirit, and the blessings of the divine illuminate your journey.<br>
+  Go forth with the seal of the Keeper upon your endeavors.
+</p>
+<p align="center">
+  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/keepers-blessing-gold.svg?raw=1" alt="Keeper’s Blessing in gold lettering on black, final benediction." width="80%">
+</p>
