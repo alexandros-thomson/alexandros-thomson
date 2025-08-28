@@ -23,7 +23,7 @@
 ---
 
 ## 🏛 Shrine Crest & Pantheon
-**Crest‑mark:** [![Crest](public/crest.svg?raw=1)](public/crest.svg?raw=1) — The emblematic seal of the Basilica Gate.
+**Crest-mark:** [![Crest](public/crest.svg?raw=1)](public/crest.svg?raw=1) — The emblematic seal of the Basilica Gate.
 
 **Pantheon:** Δωδεκάθεον — Twelve Olympian Seals, enshrined in the lineage.
 
