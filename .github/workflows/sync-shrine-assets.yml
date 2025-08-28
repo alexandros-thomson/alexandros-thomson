@@ -1,37 +1,29 @@
-name: Sync Shrine Assets
+name: 🔄 Sync Shrine Assets
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # every 30 minutes
-  workflow_dispatch:
-  repository_dispatch:
-    types: [update-shrine-assets]
+    - cron: "*/30 * * * *"  # every 30 minutes
+  workflow_dispatch:       # allows manual invocation
+  push:
+    paths:
+      - 'public/**'         # only trigger if shrine assets change
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Profile Repo
+      - name: 🜍 Check out Canon
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
-      - name: Pull Latest Badge
+      - name: ⚙️ Sync Assets to Shrine
         run: |
-          mkdir -p public
-          curl -sL https://raw.githubusercontent.com/YOUR_ORG/sponsor-ipn-discord/main/public/latest-badge.svg \
-            -o public/latest-badge.svg
+          echo "Binding public assets with latest canon state..."
+          # Add your sync commands here, e.g., rsync, cp, or a Node.js script
 
-      - name: Pull Latest Pulse
+      - name: 📜 Commit & Push if Updated
         run: |
-          curl -sL https://raw.githubusercontent.com/YOUR_ORG/shrine-watcher/main/public/latest-pulse.svg \
-            -o public/latest-pulse.svg
-
-      - name: Commit and Push if Changed
-        run: |
-          git config user.name "Shrine Sync Bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add public/latest-badge.svg public/latest-pulse.svg
-          git diff --quiet && echo "No changes" || (git commit -m "🔄 Shrine assets updated" && git push)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config user.name "Shrine Keeper Bot"
+          git config user.email "keeper@example.com"
+          git add public/
+          git commit -m "🜍 Refresh shrine assets" || echo "No changes to commit"
+          git push
