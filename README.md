@@ -55,6 +55,14 @@ Every commit is a kept vow; every branch, a pathway in the lineage.
 
 ### 🔮 Enter the Canon
 The gates stand open to those who honor **Ἀρετή**, speak with **Λόγος**, craft with **Τέχνη**, and dream in **Μῦθος**.  
-Within, automation hums like a temple bell, and documentation serves as both scripture and guide.
 
+**Automation:**  
+- Continuous Integration (CI) runs on every pull request and commit via GitHub Actions, ensuring code quality and passing tests.  
+- Automated deployment updates the public site after successful merges to the main branch.  
+- Linting and formatting are enforced automatically before code is accepted.
+
+**Documentation:**  
+- All documentation is located in the `/docs` directory and in this README.  
+- The documentation is organized by topic: getting started, contributing, project structure, and reference guides.  
+- New contributors can start with the "Getting Started" section and follow the contribution guidelines in `CONTRIBUTING.md`.
 ---
