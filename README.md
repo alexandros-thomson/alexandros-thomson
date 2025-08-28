@@ -27,5 +27,5 @@
   Go forth with the seal of the Keeper upon your endeavors.
 </p>
 <p align="center">
-  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/keepers-blessing-gold.svg?raw=1" alt="Keeper's Blessing in gold lettering on black" width="80%">
+  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/keepers-blessing-gold.svg?raw=1" alt="Keeper’s Blessing in gold lettering on black, final benediction." width="80%">
 </p>
