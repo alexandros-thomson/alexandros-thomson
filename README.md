@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/title-gold.svg?raw=1" alt="Kypria — Shrine of the Sealed Canon" width="92%">
 </p>
