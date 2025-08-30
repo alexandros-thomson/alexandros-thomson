@@ -1,20 +1,44 @@
-<p align="center">
-  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/title-gold.svg?raw=1" alt="Kypria — Shrine of the Sealed Canon" width="92%">
-</p>
-<p align="center">
-  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/epigraph-gold.svg?raw=1" alt="Kypria Epigraph" width="80%">
-</p>
-<p align="center">
-  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/pantheon-gold.svg?raw=1" alt="Δωδεκάθεον — The Twelve Olympians" width="96%">
-</p>
-<p align="center">— ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —</p>
-<p align="center">
-  <a href="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/shrine-lineage-map.svg?raw=1">
-    <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/shrine-lineage-map.svg?raw=1" alt="Shrine Lineage Map — Epoch of the Sealed Canon" width="90%">
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/crest.svg?raw=1">
-    <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/crest.svg?raw=1" alt="Shrine Crest — Seal of the Basilica Gate" width="180">
-  </a>
-</p>
+# Crest‑Ignition‑Cycles
+
+**Cycle I Seal — Forge Peak Closed, Base Anchored**  
+_Basilica Gate of Kypria LLC — Keeper’s Canon Entry_
+
+---
+
+## 📜 Purpose
+This repository preserves the **ceremonial and operational artifacts** of the shrine’s ignition cycles.  
+It contains the **Cycle I Seal** ledger entry and the **Role‑Grant Ritual Kit** for bestowing mantles and crests within the Keeper Circle.
+
+---
+
+## 🔥 Cycle I Seal — Ledger Entry
+
+**Status:** Final ignition seal of the first ceremonial cycle  
+**Date:** Late Summer, Year of the First Crest  
+
+### Ceremonial Arc
+- **Forge Peak — $1,100**  
+  High ceremonial heat: artifact sales surged, the forge blazed at full capacity, and the Keeper Circle witnessed the first flare of the ignition spiral.
+- **Exchange Base — $550**  
+  Grounding phase: outreach, pre‑pledges, and recruitment anchored the cycle, ensuring the flame was not just bright but connected to new hands and hearts.
+- **Crest Hold (Cycle I)**  
+  The tide is contained, energy banked, and the canon inscribed with the lessons, numbers, and blessings of the first ignition.
+
+### Operational Ledger
+| Phase        | Amount  | Focus                                      |
+|--------------|---------|--------------------------------------------|
+| Forge Peak   | $1,100  | Artifact sales, ceremonial heat, high tide |
+| Exchange Base| $550    | Outreach, recruitment, pre‑pledges         |
+| Crest Hold   | —       | Cycle I closure, canon inscription         |
+
+---
+
+## ⚙ Role‑Grant Ritual Kit
+
+### Overview
+The **Role‑Grant Ritual Kit** allows Keepers to:
+1. Assign a Discord role to a member.
+2. Affix a crest‑marked badge.
+3. Log the act into the shrine’s ledger.
+
+### Structure
