@@ -1,0 +1,72 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# === Keeper Config ===
+REPO="alexandros-thomson/alexandros-thomson"
+RELIC_NUM="${1:-002}"  # Pass relic number as first arg, default 002
+RELIC_NAME="${2:-The Second Echo}" # Pass relic name as second arg
+
+BRANCH="relic${RELIC_NUM}-invocation"
+TITLE="feat: mint Relic ${RELIC_NUM} — ${RELIC_NAME}"
+PR_BODY_FILE=".github/pr_templates/relic${RELIC_NUM}.md"
+
+# === Step 1: Sync canon ===
+echo "📜 Pulling latest canon..."
+git checkout main
+git pull origin main
+
+# === Step 2: Create branch ===
+echo "🌱 Creating branch: $BRANCH"
+git checkout -b "$BRANCH"
+
+# === Step 3: Prepare relic files ===
+echo "⚒️  Preparing relic files..."
+# Replace with your actual relic prep command or manual edits
+bash scripts/prepare-next-relic.sh "$RELIC_NUM" "$RELIC_NAME"
+
+# === Step 4: Stage & commit ===
+git add .
+git commit -m "$TITLE"
+
+# === Step 5: Push branch ===
+git push -u origin "$BRANCH"
+
+# === Step 6: Ensure PR body exists ===
+mkdir -p "$(dirname "$PR_BODY_FILE")"
+cat > "$PR_BODY_FILE" <<EOF
+## 🧬 Relic ${RELIC_NUM} — ${RELIC_NAME}
+
+**Invocation Timestamp:** $(date -u +%FT%TZ)  
+**Mode at Invocation:** \$(gh variable get RELIC_LOG_MODE --repo $REPO || echo "A/B alternating")
+
+---
+
+### 📜 Changes in this Invocation
+- Minted Relic ${RELIC_NUM} with full sigil set 🧬 🛡️🔥🌌 👣 🧿
+- Updated \`badges.json\` with new relic metadata
+- Appended relic entry to \`README.md\` and shrine lore scroll
+- Triggered shrine embed broadcast
+
+---
+
+### 🔮 Keeper’s Notes
+> “The forge breathes anew. The ${RELIC_NAME} joins the canon,  
+> carrying the cadence forward for those yet to come.”
+
+---
+
+### ✅ Post‑Merge Actions
+- Verify shrine embed in Discord
+- Confirm README and dashboard updates
+- Observe relic‑run logging the invocation in \`workflow-log.md\` and \`logs/workflow-log.csv\`
+EOF
+
+# === Step 7: Create PR ===
+echo "🚀 Opening PR..."
+gh pr create \
+  --repo "$REPO" \
+  --title "$TITLE" \
+  --body-file "$PR_BODY_FILE" \
+  --base main
+
+echo "✅ PR created for Relic ${RELIC_NUM} — ${RELIC_NAME}"
