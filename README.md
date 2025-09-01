@@ -17,4 +17,10 @@
   <a href="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/crest.svg?raw=1">
     <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/crest.svg?raw=1" alt="Shrine Crest — Seal of the Basilica Gate" width="180">
   </a>
-</p>
+</p>---
+
+## ⚖ Keeper’s Governance
+This sub‑shrine holds the Keeper’s configuration — the hidden levers and seals that shape the Sanctum’s public face.  
+Changes are rare, reviewed, and sealed, for a misaligned setting can shift the entire Gate’s presentation.
+
+📜 *Lineage is our law. Precision is our craft. Myth is our breath.*
