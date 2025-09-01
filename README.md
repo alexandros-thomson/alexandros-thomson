@@ -7,7 +7,7 @@
 ---
 
 ## ✦ The Keeper’s Sanctum ✦
-I am **Kostadinos J Kyprianos** — Founder & Mythic Architect of Kypria LLC, Keeper of the Basilica Gate, and steward of the Sealed Canon.  
+I am **Konstantinos J Kyprianos** — Founder & Mythic Architect of Kypria LLC, Keeper of the Basilica Gate, and steward of the Sealed Canon.  
 This shrine is my personal sanctum: a ledger of vows kept, epochs sealed, and the lineage I guard for future stewards.  
 Here, the canon is not just code — it is ceremony, crest, and covenant.
 
