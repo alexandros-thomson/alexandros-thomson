@@ -1,10 +1,4 @@
-on:
-  push:
-    paths:
-      - ".github/workflows/validate-install-from-source.yml"
-      - "src/ipn-handler.ts"
-      - "src/mappings/**"
-      - "deno.json"name: Summarize new issues
+name: Summarize new issues
 
 on:
   issues:

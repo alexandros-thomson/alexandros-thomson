@@ -1,0 +1,11 @@
+# Backup files
+*.backup
+*.bak
+*~
+
+# Temporary files
+.tmp/
+tmp/
+
+# Deno cache
+.deno/
