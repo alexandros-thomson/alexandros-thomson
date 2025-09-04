@@ -1,6 +1,6 @@
 name: Summarize new issues
 
-on:
+"on":
   issues:
     types: [opened, edited]
 

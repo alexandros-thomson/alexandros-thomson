@@ -40,15 +40,31 @@ def generate_summary(title, body):
     cleaned_body = re.sub(r'\s+', ' ', cleaned_body).strip()
     
     # Create summary starting with title
-    summary = f"📝 Issue Summary: {title}"
+    prefix = "📝 Issue Summary: "
+    base_summary = f"{prefix}{title}"
     
-    # Add body content if there's space
-    remaining_chars = 280 - len(summary) - 3  # Reserve space for "..."
+    # Check if we need to add body content
+    if len(base_summary) < 250 and cleaned_body:  # Leave room for separator and body
+        # Add separator and body content
+        separator = " | "
+        available_chars = 280 - len(base_summary) - len(separator) - 3  # Reserve 3 for "..."
+        
+        if available_chars > 10:  # Only add body if we have meaningful space
+            if len(cleaned_body) > available_chars:
+                # Truncate body at word boundary
+                truncated_body = cleaned_body[:available_chars]
+                last_space = truncated_body.rfind(' ')
+                if last_space > 0:
+                    truncated_body = truncated_body[:last_space]
+                summary = base_summary + separator + truncated_body + "..."
+            else:
+                summary = base_summary + separator + cleaned_body
+        else:
+            summary = base_summary
+    else:
+        summary = base_summary
     
-    if remaining_chars > 20 and cleaned_body:
-        # Add a separator and part of the body
-        summary += f" | {cleaned_body}"
-    
+    # Final safety check - ensure we never exceed 280 chars
     return truncate_text(summary, 280)
 
 
