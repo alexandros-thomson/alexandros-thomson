@@ -1,40 +1,31 @@
-on:
-  push:
-    paths:
-      - ".github/workflows/validate-install-from-source.yml"
-      - "src/ipn-handler.ts"
-      - "src/mappings/**"
-      - "deno.json"name: Summarize new issues
+name: Summarize new issues
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 jobs:
   summary:
     runs-on: ubuntu-latest
     permissions:
       issues: write
-      models: read
       contents: read
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run AI inference
-        id: inference
-        uses: actions/ai-inference@v1
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          prompt: |
-            Summarize the following GitHub issue in one paragraph:
-            Title: ${{ github.event.issue.title }}
-            Body: ${{ github.event.issue.body }}
+          python-version: '3.x'
 
-      - name: Comment with AI summary
+      - name: Install dependencies
         run: |
-          gh issue comment $ISSUE_NUMBER --body '${{ steps.inference.outputs.response }}'
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run issue summarizer
+        run: python scripts/summarize_issues.py
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
-          RESPONSE: ${{ steps.inference.outputs.response }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
