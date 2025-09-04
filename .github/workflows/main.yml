@@ -3,10 +3,8 @@ name: CI
 on:
   push:
     paths:
-      - ".github/workflows/validate-install-from-source.yml"
-      - "src/ipn-handler.ts"
-      - "src/mappings/**"
-      - "deno.json"
+      - ".github/workflows/**"
+      - "src/**"
   pull_request:
     branches: ["main"]
 
