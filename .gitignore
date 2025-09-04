@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+deno_modules/
+
+# Build artifacts
+dist/
+build/
+.cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Act binary
+bin/act
+
+# Temporary files
+tmp/
+temp/

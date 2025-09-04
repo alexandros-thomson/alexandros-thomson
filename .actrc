@@ -1,0 +1,11 @@
+# act configuration file
+# This file configures nektos/act for running GitHub Actions locally
+
+# Use medium-sized runner image for better compatibility
+-P ubuntu-latest=catthehacker/ubuntu:act-22.04
+
+# Enable verbose output
+--verbose
+
+# Bind mount the current directory
+--bind
