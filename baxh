@@ -1,3 +1,6 @@
 git add .github/workflows/deploy.yml
 git commit -m "🛡 Add relic guard to deploy workflow — ensure all shrine assets present before build"
 git push origin main
+git fetch origin
+git checkout <branch>
+git rebase origin/main
