@@ -1,0 +1,4 @@
+# Banner asset & integrity tooling
+/profile/dual-purpose-banner-safe-zone-overlay-minimal.png  @alexandros-thomson
+/profile/banner-production-index.md                        @alexandros-thomson
+/scripts/verify-assets.sh                                  @alexandros-thomson
