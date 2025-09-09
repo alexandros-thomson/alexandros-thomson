@@ -1,0 +1,29 @@
+name: Verify Banner Assets
+
+on:
+  pull_request:
+    paths:
+      - 'profile/banner-production-index.md'
+      - 'profile/*.png'
+      - 'scripts/verify-assets.sh'
+  push:
+    branches:
+      - main
+    paths:
+      - 'profile/banner-production-index.md'
+      - 'profile/*.png'
+      - 'scripts/verify-assets.sh'
+
+jobs:
+  verify-assets:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Make verification script executable
+        run: chmod +x scripts/verify-assets.sh
+      
+      - name: Run banner asset verification
+        run: ./scripts/verify-assets.sh

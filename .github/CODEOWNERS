@@ -1,0 +1,6 @@
+# CODEOWNERS for banner asset integrity
+# Require reviewer @alexandros-thomson for critical banner assets and verification script
+
+profile/dual-purpose-banner-safe-zone-overlay-minimal.png @alexandros-thomson
+profile/banner-production-index.md @alexandros-thomson
+scripts/verify-assets.sh @alexandros-thomson
