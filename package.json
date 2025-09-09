@@ -1,0 +1,1 @@
+{"name":"sponsor-engine-workspace","version":"0.1.0","private":true,"workspaces":["apps/*","packages/*"],"scripts":{"build":"tsc -b","dev":"cd apps/sponsor-engine && pnpm run dev","start":"cd apps/sponsor-engine && pnpm run start","test":"echo 'tests coming soon'"},"devDependencies":{"@types/node":"^18.0.0","typescript":"^4.9.5","pnpm":"^8.0.0"},"engines":{"node":">=18.0.0"}}
