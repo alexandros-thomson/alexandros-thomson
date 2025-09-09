@@ -1,1 +1,11 @@
-{\n  "name": "@sponsor-engine/core",\n  "version": "0.1.0",\n  "main": "dist/index.js",\n  "scripts": {\n    "build": "tsc -b ."\n  },\n  "devDependencies": {\n    "typescript": "^4.9.5"\n  }\n}
+{
+  "name": "@sponsor-engine/core",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -b ."
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
