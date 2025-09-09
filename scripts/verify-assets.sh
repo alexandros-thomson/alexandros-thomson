@@ -58,7 +58,12 @@ fi
 
 # Assets to verify (based on production index)
 declare -A EXPECTED_HASHES
-EXPECTED_HASHES["profile/dual-purpose-banner-safe-zone-overlay-minimal.png"]="e1b8c7a0f4b3a9d5e2f1c7b6a8e3d9c0f4b2e1a9c7b8e3f2d1c0b9a8f7e6d5c4"
+# Populate EXPECTED_HASHES from the production index file
+while read -r asset_path expected_hash _; do
+    # Skip empty lines and lines starting with #
+    [[ -z "$asset_path" || "$asset_path" =~ ^# ]] && continue
+    EXPECTED_HASHES["$asset_path"]="$expected_hash"
+done < "$PRODUCTION_INDEX"
 
 # Verification results
 TOTAL_ASSETS=0
