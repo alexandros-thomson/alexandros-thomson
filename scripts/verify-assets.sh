@@ -24,7 +24,8 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 # Expected values
-EXPECTED_SHA256="e1b8c7a0f4b3a9d5e2f1c7b6a8e3d9c0f4b2e1a9c7b8e3f2d1c0b9a8f7e6d5c4"
+# SHA-256 hash of profile/dual-purpose-banner-safe-zone-overlay-minimal.png
+EXPECTED_SHA256="REPLACE_WITH_REAL_SHA256_HASH"
 EXPECTED_WIDTH=1500
 EXPECTED_HEIGHT=640
 BANNER_FILE="profile/dual-purpose-banner-safe-zone-overlay-minimal.png"
