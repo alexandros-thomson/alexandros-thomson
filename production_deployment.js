@@ -134,7 +134,7 @@ async function sendArtifactDrop(discordId, tier) {
       
     await user.send({ embeds: [embed] });
   } catch (error) {
-    console.error(`Failed to send artifact to ${discordId}:`, error);
+    console.error('Failed to send artifact to %s:', discordId, error);
   }
 }
 
