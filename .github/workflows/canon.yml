@@ -44,3 +44,10 @@ jobs:
         uses: aquasecurity/trivy-action@0.12.0
         with:
           image-ref: your-dockerhub-username/basilica-core:latest
+          format: 'table'
+          output: 'trivy-report.txt'
+      - name: Upload Trivy Vulnerability Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: 'Trivy Vulnerability Report'
+          path: trivy-report.txt
