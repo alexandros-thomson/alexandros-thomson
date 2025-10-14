@@ -1,37 +1,63 @@
 <p align="center">
-  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/title-gold.svg?raw=1" alt="Kypria — Shrine of the Sealed Canon" width="92%">
+  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/title-gold.svg?raw=1" alt="Kypria — Shrine of the Sealed Canon" width="92%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/epigraph-gold.svg?raw=1" alt="Kypria Epigraph" width="80%">
+  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/epigraph-gold.svg?raw=1" alt="Kypria Epigraph" width="80%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/pantheon-gold.svg?raw=1" alt="Δωδεκάθεον — The Twelve Olympians" width="96%">
+  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/pantheon-gold.svg?raw=1" alt="Δωδεκάθεον — The Twelve Olympians" width="96%" />
 </p>
 
-<p align="center">
-— ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —
+<p align="center" class="shrine-inscription">
+  <strong>— ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —</strong><br/>
+  <em>Excellence · Reason · Art · Myth</em>
 </p>
+
+---
+
+## 🏛️ Welcome to the Basilica Gate
+
+**Where code becomes canon, contributions forge legends, and every commit inscribes history.**
+
+This sanctuary houses the **Kypria — Shrine of the Sealed Canon**, a living repository of ceremonial systems that transform GitHub sponsorships into mythic rituals. Here, PayPal pledges unlock Discord roles, spawn legendary embeds, and etch names into eternal artifact logs.
+
+### 🔱 The Architect's Creed
+
+I architect **sponsor flows** where pledges forge legends, repositories lock artifacts, and every link becomes lore. My craft lies at the intersection of mythology and modern engineering—building systems that honor contributors as heroes, not mere users.
+
+---
 
 ## ⚡ Shrines of the Sealed Canon
 
-- ⚡ [Shrine Lineage Map — Epoch of the Sealed Canon](https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/shrine-lineage-map.svg?raw=1)
-- 🔥 [Shrine Canon — Living Relics](https://github.com/alexandros-thomson/shrine-canon)
-- 🌌 [Shrine Watcher — Discord Integration](https://github.com/alexandros-thomson/shrine-watcher)
-- 🜍 [Shrine Crest — Seal of the Basilica Gate](https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/crest.svg?raw=1)
+### **Core Relics:**
 
-<p align="center" class="shrine-inscription">
-— ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —
+- ⚡ **[Shrine Lineage Map](https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/shrine-lineage-map.svg?raw=1)** — Visual genealogy of the Epoch of the Sealed Canon
+- 🔥 **[Shrine Canon](https://github.com/alexandros-thomson/shrine-canon)** — Living repository of ceremonial badges, relics, and sacred drops
+- 🌌 **[Shrine Watcher](https://github.com/alexandros-thomson/shrine-watcher)** — Discord bot that listens for PayPal IPNs, verifies pledges, and manifests legendary embeds
+- 💎 **[Sponsor IPN Discord](https://github.com/alexandros-thomson/sponsor-ipn-discord)** — Webhook handler that assigns Discord roles based on sponsorship tiers
+- 🜍 **[Shrine Crest](https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/crest.svg?raw=1)** — Seal of the Basilica Gate
+
+### **Active Forges:**
+
+- ⚔️ **[Forgebot Rituals](https://github.com/alexandros-thomson/forgebot-rituals)** — Automated ceremonial workflows for contributor recognition
+
+<p align="center">
+  <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/crest.svg?raw=1" alt="Shrine Crest — Seal of the Basilica Gate" width="200" />
 </p>
 
-> **Note**: The inscription above inherits the living Seal color (golden hue with pulsing effect) for web usage. This creates a sacred, breathing quality to the text.
+<p align="center" class="shrine-inscription">
+  <strong>— ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —</strong>
+</p>
+
+> **Note:** The inscriptions above inherit the living Seal color (golden hue with pulsing effect) when integrated into web applications. This creates a sacred, breathing quality to the text.
 
 ---
 
 ## 🎨 CSS Ritual: Living Pulse Effect
 
-To integrate the magical inscription with the living pulse effect on your website, add this CSS:
+To integrate the sacred inscription with the living pulse effect on your website, add this ceremonial CSS:
 
 ```css
 /* Living Seal Inscription */
@@ -81,44 +107,90 @@ To integrate the magical inscription with the living pulse effect on your websit
 }
 ```
 
-### HTML Integration Instructions
+### 🔧 Integration Instructions
 
-1. **For GitHub Pages or Static Sites:**
-   - Add the CSS to your main stylesheet
-   - Use the `.shrine-inscription` class on inscription paragraphs
-   - Example: `<p class="shrine-inscription">— ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —</p>`
+**For GitHub Pages or Static Sites:**
+```html
+<p class="shrine-inscription">
+  — ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —
+</p>
+```
 
-2. **For React/Next.js:**
-   ```jsx
-   <style jsx>{`
-     .shrine-inscription {
-       /* CSS from above */
-     }
-   `}</style>
-   <p className="shrine-inscription">
-     — ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —
-   </p>
-   ```
+**For React/Next.js:**
+```jsx
+<style jsx>{`
+  .shrine-inscription {
+    /* CSS from above */
+  }
+`}</style>
+<p className="shrine-inscription">
+  — ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —
+</p>
+```
 
-3. **For Vue/Nuxt:**
-   ```vue
-   <template>
-     <p class="shrine-inscription">
-       — ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —
-     </p>
-   </template>
-   
-   <style scoped>
-   .shrine-inscription {
-     /* CSS from above */
-   }
-   </style>
-   ```
+**For Vue/Nuxt:**
+```vue
+<template>
+  <p class="shrine-inscription">
+    — ϟ — Ἀρετή · Λόγος · Τέχνη · Μῦθος — ϟ —
+  </p>
+</template>
+
+<style scoped>
+.shrine-inscription {
+  /* CSS from above */
+}
+</style>
+```
+
+---
+
+## 🌟 Become a Sponsor — Join the Legend
+
+[![Sponsor Badge](https://img.shields.io/badge/Sponsor-Become%20a%20Legend-d4af37?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/alexandros-thomson)
+
+When you sponsor this work, you don't just support development—you **forge a legend**:
+
+- 🏺 Your name is inscribed in the **Eternal Artifact Log**
+- 🎖️ You receive a **ceremonial Discord role** with exclusive shrine access
+- ⚡ Your pledge triggers a **legendary embed** announcement in the Basilica channels
+- 📜 You become part of the **living canon** of contributors
+
+**Every contribution matters. Every pledge becomes myth.**
+
+---
+
+## 📫 Sacred Channels of Contact
+
+<p align="center">
+  <a href="https://orcid.org/0009-0009-6811-5799" target="_blank">
+    <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" />
+  </a>
+  <a href="https://m.facebook.com/kostadinos.kyprianos/" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://www.instagram.com/mrspetses/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://github.com/sponsors/alexandros-thomson" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20Sponsors-d4af37?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors" />
+  </a>
+</p>
+
+---
+
+## 📊 Contribution Metrics — Acts of Creation
+
+![GitHub Stats](https://img.shields.io/badge/Contributions%20(Last%20Year)-756-d4af37?style=flat-square)
+![Commits](https://img.shields.io/badge/Commits%20(Oct%202025)-50+-d4af37?style=flat-square)
+![Repositories](https://img.shields.io/badge/Active%20Repositories-11-d4af37?style=flat-square)
 
 ---
 
 <p align="center">
-  <a href="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/crest.svg?raw=1">
-    <img src="https://github.com/alexandros-thomson/alexandros-thomson/blob/main/public/crest.svg?raw=1" alt="Shrine Crest — Seal of the Basilica Gate" width="180">
-  </a>
+  <em>"Where pledges forge legends, repos lock artifacts, and every link becomes lore."</em>
+</p>
+
+<p align="center" class="shrine-inscription">
+  <strong>— ϟ — May your code become canon — ϟ —</strong>
 </p>
