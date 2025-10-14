@@ -34,3 +34,13 @@ jobs:
         run: curl -X POST \
           -H "Authorization: Bearer ${{ secrets.GRAFANA_API_TOKEN }}" \
           https://your-grafana-instance/api/admin/provisioning/git-sync
+  security-scan:
+    runs-on: ubuntu-latest
+    needs: build-and-deploy
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Run Trivy Scan
+        uses: aquasecurity/trivy-action@0.12.0
+        with:
+          image-ref: your-dockerhub-username/basilica-core:latest
