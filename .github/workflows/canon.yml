@@ -40,14 +40,36 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-      - name: Run Trivy Scan
+      - name: Run Trivy Scan - Core Reliquary
         uses: aquasecurity/trivy-action@0.12.0
         with:
           image-ref: your-dockerhub-username/basilica-core:latest
           format: 'table'
-          output: 'trivy-report.txt'
-      - name: Upload Trivy Vulnerability Report
+          output: 'trivy-report-core.txt'
+      - name: Upload Trivy Vulnerability Report - Core
         uses: actions/upload-artifact@v3
         with:
-          name: 'Trivy Vulnerability Report'
-          path: trivy-report.txt
+          name: 'Trivy Vulnerability Report - Core'
+          path: trivy-report-core.txt
+      - name: Run Trivy Scan - Worker Reliquary
+        uses: aquasecurity/trivy-action@0.12.0
+        with:
+          image-ref: your-dockerhub-username/basilica-worker:latest
+          format: 'table'
+          output: 'trivy-report-worker.txt'
+      - name: Upload Trivy Vulnerability Report - Worker
+        uses: actions/upload-artifact@v3
+        with:
+          name: 'Trivy Vulnerability Report - Worker'
+          path: trivy-report-worker.txt
+      - name: Run Trivy Scan - Observatory Reliquary
+        uses: aquasecurity/trivy-action@0.12.0
+        with:
+          image-ref: your-dockerhub-username/basilica-observatory:latest
+          format: 'table'
+          output: 'trivy-report-observatory.txt'
+      - name: Upload Trivy Vulnerability Report - Observatory
+        uses: actions/upload-artifact@v3
+        with:
+          name: 'Trivy Vulnerability Report - Observatory'
+          path: trivy-report-observatory.txt
