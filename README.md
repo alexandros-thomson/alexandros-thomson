@@ -19,6 +19,41 @@
   <img src="https://github.com/alexandros-thomson/alexandros-thomson/actions/workflows/canon.yml/badge.svg" alt="Canon Workflow" />
 </p>
 
+---
+
+<h1 align="center">🔐 @cypher_krypto</h1>
+
+<p align="center">
+  <a href="https://dev.to/cypher_krypto"><img src="https://img.shields.io/badge/DEV-%230AFFFF?style=for-the-badge&logo=dev.to&logoColor=white" alt="DEV Profile"/></a>
+  <a href="https://twitter.com/mrspetses"><img src="https://img.shields.io/badge/X-%230AFFFF?style=for-the-badge&logo=x&logoColor=white" alt="X Profile"/></a>
+  <a href="mailto:kostaskyprianos@gmail.com"><img src="https://img.shields.io/badge/Email-%230AFFFF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/DevOps-%230AFFFF?style=for-the-badge" alt="DevOps"/>
+  <img src="https://img.shields.io/badge/Blockchain-%230AFFFF?style=for-the-badge" alt="Blockchain"/>
+  <img src="https://img.shields.io/badge/Cryptography-%230AFFFF?style=for-the-badge" alt="Cryptography"/>
+</p>
+
+### 🔐 The Cypher Manifesto
+
+**I build secure, distributed systems that empower autonomy, privacy, and resilience.**
+
+My work bridges cryptography, automation, and decentralized infrastructure—architecting systems where code becomes canon, contributions forge legends, and every commit inscribes history.
+
+```bash
+$ echo "Building secure distributed systems..."
+$ echo "Where autonomy meets encryption..."
+```
+
+**Core Focus:**
+- 🛡️ **Security Engineering** - Cryptographic systems, zero-knowledge proofs, secure key management
+- ⚙️ **DevOps & Automation** - CI/CD pipelines, infrastructure as code, platform engineering
+- ⛓️ **Blockchain & DeFi** - Decentralized identity, smart contracts, distributed consensus
+- 🔧 **Systems Architecture** - Microservices, cloud-native patterns, observability
+
+---
+
 <!-- 1) Ceremonial intro + badges + CTA -->
 
 ## 🏛️ Welcome to the Basilica Gate
