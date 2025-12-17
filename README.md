@@ -25,6 +25,8 @@
 
 <p align="center">
   <a href="https://dev.to/cypher_krypto"><img src="https://img.shields.io/badge/DEV-%230AFFFF?style=for-the-badge&logo=dev.to&logoColor=white" alt="DEV Profile"/></a>
+
+  ![Cypher Krypto Banner](./banner.png.png)
   <a href="https://twitter.com/mrspetses"><img src="https://img.shields.io/badge/X-%230AFFFF?style=for-the-badge&logo=x&logoColor=white" alt="X Profile"/></a>
   <a href="mailto:kostaskyprianos@gmail.com"><img src="https://img.shields.io/badge/Email-%230AFFFF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
