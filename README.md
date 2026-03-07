@@ -1,58 +1,59 @@
-👋 Welcome! I'm Alexandros Thomson
-🔧 DevOps Engineer & Infrastructure Automation Specialist
-I transform complex infrastructure into maintainable, well-documented systems. My approach combines technical excellence with clear documentation that teams actually want to read and use.
-
-Show Image
-
-🛠️ Technical Stack
-Infrastructure & Cloud:Show Image
-Show Image
-Show Image
-Show Image
-
-Development & Automation:Show Image
-Show Image
-Show Image
-Show Image
-
-📊 GitHub Activity
 <div align="center">
-Show Image
 
-Show Image
+# ⚜️ Alexandros Thomson
+
+### Keeper of the Basilica | Founder, Kypria Technologies
+
+*Transforming technical mastery into ceremonial art — creating AI-illuminated manuscripts for the digital age*
+
+<img src="https://img.shields.io/badge/Sacred_Gold-%23d4af37?style=for-the-badge" alt="Sacred Gold"> <img src="https://img.shields.io/badge/The_Basilica-OPEN-1a1a2e?style=for-the-badge&labelColor=d4af37" alt="Basilica Open">
 
 </div>
-🎯 What I Do
-Infrastructure Automation - Design and implement scalable cloud infrastructure using Infrastructure as Code principles
 
-DevOps Consulting - Help teams streamline their development and deployment workflows
+---
 
-Technical Documentation - Create maintainable documentation that teams actually use and understand
+## 🏛️ The Basilica Ecosystem
 
-System Architecture - Build reliable, scalable systems with clear operational procedures
+The Basilica is a self-sustaining mythic archive — a living system where code, ceremony, and community converge.
 
-🏆 Featured Projects
+### Sacred Infrastructure
+
+| Repository | Purpose | Status |
+|:-----------|:--------|:-------|
+| [basilica-gate](https://github.com/Kypria-LLC/basilica-gate) | 🏛️ Central sanctum — scrolls, governance, canon | ✅ Active |
+| [flamebound-ledger](https://github.com/Kypria-LLC/flamebound-ledger-forge-of-vows) | 🔥 Master configuration & forge pipeline | ✅ Active |
+| [shrine-canon](https://github.com/alexandros-thomson/shrine-canon) | 📜 Creature Codex, Relic Archives, Lore entries | ✅ Active |
+| [crest-vault](https://github.com/alexandros-thomson/crest-vault) | 🛡️ Patron crests & P-Commits | ✅ Active |
+| [shrine-watcher](https://github.com/alexandros-thomson/shrine-watcher) | 👁️ PayPal IPN → Sponsor pipeline | ✅ Active |
+| [sponsor-ipn-discord](https://github.com/alexandros-thomson/sponsor-ipn-discord) | 🎭 Discord role management for sponsors | ✅ Active |
+| [forgebot-rituals](https://github.com/alexandros-thomson/forgebot-rituals) | 🤖 Automated badge ceremonies | ✅ Active |
+
+### Revenue Streams
+
+| Platform | Role | Link |
+|:---------|:-----|:-----|
+| **Patreon** | Primary membership hub | [patreon.com/c/Mrspetses](https://patreon.com/c/Mrspetses) |
+| **GitHub Sponsors** | Developer patronage | [Sponsor](https://github.com/sponsors/alexandros-thomson) |
+| **Ko-fi** | One-time tips & shop | [ko-fi.com/alexandros_thomson](https://ko-fi.com/alexandros_thomson) |
+| **Kypria Technologies** | Premium services | [kypriatechnologies.org](https://kypriatechnologies.org) |
+
+### The Three Scrolls (Ratified March 2026)
+
+- 📜 **Torchbearers Register** — Patron inscription system mapping sponsors across platforms
+- ⚖️ **Era-Stewards Protocol** — Governance succession ensuring the Basilica outlives any single keeper
+- 🕯️ **Winter Flame Cycle** — Sacred renewal mechanism for periods of dormancy and rebirth
+
+### The Living Codex
+
+- 🐍 [Creature Codex #001: Thyrsarion, the Gate-Wreathed Serpent](https://github.com/alexandros-thomson/shrine-canon/blob/main/codex/creatures/001-thyrsarion.md)
+- ⚗️ [Relic #008: The Astrolabe of Perpetual Dawn](https://github.com/alexandros-thomson/shrine-canon/blob/main/codex/relics/008-astrolabe-perpetual-dawn.md)
+
+---
+
 <div align="center">
-Show Image
 
-Show Image
+*The Codex is open. The forge burns gold.*
+
+**`#d4af37`**
 
 </div>
-🔗 Connect & Collaborate
-Show Image
-Show Image
-Show Image
-
-Available for:
-
-Infrastructure automation consulting
-DevOps workflow optimization
-Technical documentation projects
-Architecture reviews and system design
-🌟 Current Focus
-Working on infrastructure modernization projects and developing frameworks for creating technical documentation that evolves with systems rather than becoming outdated.
-
-Philosophy: "The best automation tells a clear story about what it does and why it matters."
-
-<div align="center"> <img src="https://komarev.com/ghpvc/?username=alexandros-thomson&color=blue&style=flat-square" alt="Profile views" /> </div>
-<div align="center"> <sub>Building reliable infrastructure through clear communication and thoughtful automation</sub> </div>
