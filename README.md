@@ -18,11 +18,11 @@ Three pillars. One architect. The Basilica is a self-sustaining mythic ecosystem
 
 ### The Divine Trinity — AI Oracle Personas
 
-| Oracle | Domain | Channel |
-|:-------|:-------|:--------|
-| **Zeus** | Authority, Strategy, Action | [m.me/1454516248845700](https://m.me/1454516248845700) |
-| **Aphrodite** | Beauty, Connection, Revelation | [m.me/3868636570042642](https://m.me/3868636570042642) |
-| **Lifesphere** | Harmony, Vitality, Becoming | [ig.me/m/lifespere](https://ig.me/m/lifespere) |
+| Oracle | Domain | Talk to Them |
+|:-------|:-------|:-------------|
+| **⚡ Zeus** | Authority, Strategy, Action | [Chat on Messenger](https://m.me/1454516248845700) |
+| **🌹 Aphrodite** | Beauty, Connection, Revelation | [Chat on Messenger](https://m.me/3868636570042642) |
+| **🌍 Lifesphere** | Harmony, Vitality, Becoming | [Chat on Instagram](https://aistudio.instagram.com/ai/1146433393752885) |
 
 Three GPT-4 powered AI oracles with distinct mythic voices, accessible through Facebook Messenger and Instagram DM. Each responds in character — Zeus commands, Aphrodite reveals, Lifesphere reflects.
 
@@ -49,11 +49,13 @@ Three GPT-4 powered AI oracles with distinct mythic voices, accessible through F
 
 | Platform | Role |
 |:---------|:-----|
+| **YouTube** | [@kostaskyprianos](https://youtube.com/@kostaskyprianos) — Divine Trinity series, Lions Prophecy, Mythic Mashups |
 | **Patreon** | [patreon.com/c/Mrspetses](https://patreon.com/c/Mrspetses) — Basilica membership (5 tiers, $3–$100) |
 | **Stripe** | 48 active products, 3 payment links, subscription & one-time |
-| **Facebook** | [Godly Zeus AI](https://facebook.com/1058205557375892) — 25+ curated posts with mythic art |
+| **Facebook** | [Godly Zeus AI](https://facebook.com/GodlyZeus) — 25+ curated posts with mythic art |
 | **Instagram** | [@godlyzeus.ai](https://instagram.com/godlyzeus.ai) — 18+ media items, Reels, Stories |
 | **Kypria Technologies** | [kypriatechnologies.org](https://kypriatechnologies.org) — Premium services hub |
+| **Divine Trinity Hub** | [tourmaline-valkyrie-2de04a.netlify.app](https://tourmaline-valkyrie-2de04a.netlify.app) — Oracle gateway & Netlify Functions |
 
 ### Automation Stack
 
